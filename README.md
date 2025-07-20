@@ -1,4 +1,6 @@
 🧠 Project Title
+![Vaccine short](./flu-vaccine.jpg).
+
 # Who Gets Vaccinated? Machine Learning Predictions of H1N1 and Seasonal Flu Vaccine Uptake
 
 📌 Overview
@@ -41,7 +43,7 @@ training_set_labels.csv
 test_set_features.csv
 
 These datasets contain demographic, behavioral, and health-related survey data from 2009 related to vaccine uptake.
-You can download the datsets from [datadriven.org](https://www.drivendata.org/competitions/66/flu-shot-learning/)
+You can download the datsets from [datadriven.org](https://www.drivendata.org/competitions/66/flu-shot-learning/).
 
 
 ## Modeling Process
