@@ -3,7 +3,9 @@
 
 # Who Gets Vaccinated? Machine Learning Predictions of H1N1 and Seasonal Flu Vaccine Uptake
 
-📌 Overview
+Author : Winnie Amoit
+
+## Overview
 This project builds a machine learning model to predict the probability that individuals received the 2009 H1N1 and seasonal flu vaccines based on survey data. The solution is framed as a multi-label probabilistic classification task.
 
 By understanding vaccine hesitancy patterns, public health institutions can better target at-risk populations and craft data-driven intervention strategies.
@@ -32,7 +34,7 @@ Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn
 
 Models: Logistic Regression, Random Forest, Grid Search, Feature Selection
 
-Techniques: Preprocessing pipelines, One-Hot/Ordinal Encoding, ROC AUC, PR-F1 metrics
+Techniques: Preprocessing pipelines, One-Hot/Ordinal Encoding, ROC AUC, PR-F1 metrics, Feature Selection
 
 
 ## Dataset
@@ -65,7 +67,7 @@ ROC AUC & PR-F1 as primary evaluation metrics
 
 ## Feature Selection
 
-Used SelectFromModel to identify key predictors
+Used SelectFrom Model to identify key predictors
 
 ## Prediction
 
@@ -78,6 +80,33 @@ Key features identified influencing vaccine uptake.
 
 Visualizations provided for feature importance and data distribution.
 
+## 🤖 Final Model Selection
+
+After evaluating both **Logistic Regression** and **Random Forest**, we selected **Logistic Regression** as the final model due to:
+
+- Comparable performance to Random Forest
+- Superior interpretability and simplicity
+- Faster inference time, ideal for deployment
+
+---
+
+## 📊 Model Performance (Validation Set)
+
+| Metric               | H1N1 Vaccine | Seasonal Vaccine |
+|----------------------|--------------|------------------|
+| **Accuracy**         | ~77.7%       | ~77.4%           |
+| **ROC AUC Score**    | 0.835        | 0.850            |
+| **F1 Score**         | 0.68–0.76    | 0.75–0.76        |
+
+
+# ✅ Recommendations
+
+1. **Targeted Campaigns**: Focus on individuals without provider recommendations.
+2. **Behavioral Insights**: Use concern about illness as an entry point for education.
+3. **Improve Communication**: Emphasize physician engagement in vaccination discussions.
+4. **Proactive Modeling**: Apply similar methods to forecast hesitancy for future vaccines.
+
+
 ## Next Steps
 Integrate model interpretability tools (e.g., SHAP, LIME).
 
@@ -87,13 +116,16 @@ Extend model to new datasets (e.g., COVID-19 hesitancy).
 
 Incorporate ensemble or deep learning models for performance benchmarking.
 
+## 📌 How to Run
 
-## How to Run
+```bash
 # Clone the repo and install dependencies
 pip install -r requirements.txt
 
-# Run notebook
+# Launch notebook
 jupyter notebook notebook.ipynb
+```
+
 
 ## Acknowledgements
 Thanks to the DrivenData H1N1 Vaccine Prediction competition for the dataset and problem framing.
