@@ -116,6 +116,29 @@ Extend model to new datasets (e.g., COVID-19 hesitancy).
 
 Incorporate ensemble or deep learning models for performance benchmarking.
 
+## Files in This Repo
+Predicting-Vaccine-Uptake/notebook.ipynb
+Predicting-Vaccine-Uptake/Readme.md
+Predicting-Vaccine-Uptake/Who Gets Vaccinated.pdf : Slide deck for stakeholders
+Predicting-Vaccine-Uptake/submission.csv
+Predicting-Vaccine-Uptake/test_set_features.csv
+Predicting-Vaccine-Uptake/training_set_features.csv
+Predicting-Vaccine-Uptake/training_set_labels.csv
+Predicting-Vaccine-Uptake/requirements.txt
+Predicting-Vaccine-Uptake/flu-vaccine.jpg : Image for Readme.md
+
+Predicting-Vaccine-Uptake/
+├── README.md
+├── requirements.txt
+├── training_set_features.csv, training_set_labels.csv, test_features.csv/
+├── notebooks/
+│   └── notebook.ipynb
+├── outputs/
+│   ├── Dashboard.pdf
+│   └── Presentation.pdf
+    |__ Submission.csv
+
+
 ## 📌 How to Run
 
 ```bash
@@ -126,6 +149,9 @@ pip install -r requirements.txt
 jupyter notebook notebook.ipynb
 ```
 
-
 ## Acknowledgements
 Thanks to the DrivenData H1N1 Vaccine Prediction competition for the dataset and problem framing.
+
+
+## Questions?
+Feel free to reach out or submit issues in this repo!
