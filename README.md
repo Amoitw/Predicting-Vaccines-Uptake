@@ -150,6 +150,10 @@ pip install -r requirements.txt
 jupyter notebook notebook.ipynb
 ```
 
+## Interactive Tableau Dashboard
+
+![Dashboard Preview](https://public.tableau.com/app/profile/winnie.amoit/viz/VaccineUptakeTakers/VaccineUptakeSummary?publish=yes)  
+
 ## Acknowledgements
 Thanks to the DrivenData H1N1 Vaccine Prediction competition for the dataset and problem framing.
 
