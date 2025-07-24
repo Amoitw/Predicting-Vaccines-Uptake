@@ -152,7 +152,7 @@ jupyter notebook notebook.ipynb
 
 ## Interactive Tableau Dashboard
 
-![Dashboard Preview](https://public.tableau.com/app/profile/winnie.amoit/viz/VaccineUptakeTakers/VaccineUptakeSummary?publish=yes)  
+![Dashboard Preview](https://public.tableau.com/app/profile/winnie.amoit/viz/VaccineUptakeTakers/VaccineUptakeSummary?publish=yes "Interactive Tableau dashboard showing summary charts of vaccine uptake rates by demographic groups, including bar graphs and pie charts. The dashboard highlights differences in vaccination rates across age, gender, and health status, with a clear and informative layout designed to support data-driven decision making.")  
 
 ## Acknowledgements
 Thanks to the DrivenData H1N1 Vaccine Prediction competition for the dataset and problem framing.
